@@ -1,9 +1,9 @@
 # Afero Google Drive Driver
 
-![Build](https://github.com/fclairamb/afero-gdrive/workflows/Build/badge.svg)
+![Build](https://github.com/hieu-pv/afero-gdrive/workflows/Build/badge.svg)
 [![codecov](https://codecov.io/gh/fclairamb/afero-gdrive/branch/main/graph/badge.svg?token=ZPOTDLRY7Y)](https://codecov.io/gh/fclairamb/afero-gdrive)
 [![Go Report Card](https://goreportcard.com/badge/fclairamb/afero-gdrive)](https://goreportcard.com/report/fclairamb/afero-gdrive)
-[![GoDoc](https://godoc.org/github.com/fclairamb/afero-gdrive?status.svg)](https://godoc.org/github.com/fclairamb/afero-gdrive)
+[![GoDoc](https://godoc.org/github.com/hieu-pv/afero-gdrive?status.svg)](https://godoc.org/github.com/hieu-pv/afero-gdrive)
 
 ## About
 It provides an [afero filesystem](https://github.com/spf13/afero/) implementation of a [Google Drive](https://developers.google.com/drive) backend.
@@ -27,7 +27,7 @@ I'm very opened to any improvement through issues or pull-request that might lea
 Note: Errors handling is skipped for brevity but you definitely have to handle it.
 ```golang
 import (
-	"github.com/fclairamb/afero-gdrive/oauthhelper"
+	"github.com/hieu-pv/afero-gdrive/oauthhelper"
 )
 
 func main() {
@@ -59,7 +59,7 @@ func main() {
 ```
 
 ## How to run the tests
-Follow [these instructions](https://github.com/fclairamb/afero-gdrive/tree/main/testenvhelper).
+Follow [these instructions](https://github.com/hieu-pv/afero-gdrive/tree/main/testenvhelper).
     
 ## Credits
 This is a fork from [T4cC0re/gdriver](https://github.com/T4cC0re/gdriver) which is itself a fork of [eun/gdriver](https://github.com/eun/gdriver).

@@ -9,7 +9,7 @@ import (
 	"google.golang.org/api/drive/v3"
 	"google.golang.org/api/googleapi"
 
-	"github.com/fclairamb/afero-gdrive/cache"
+	"github.com/hieu-pv/afero-gdrive/cache"
 )
 
 // APIWrapper allows to wrap some GDrive API calls to perform some caching
@@ -63,7 +63,7 @@ func (a *APIWrapper) createFile(
 	call := a.srv.Files.Create(&drive.File{
 		Name:        sanitizeName(fileName),
 		MimeType:    mimeType,
-		Description: "Created by https://github.com/fclairamb/afero-gdrive",
+		Description: "Created by https://github.com/hieu-pv/afero-gdrive",
 		Parents: []string{
 			folderID,
 		},
